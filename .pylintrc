@@ -1,0 +1,32 @@
+[MASTER]
+
+ignore=tests
+
+[MESSAGE CONTROL]
+
+disable=raw-checker-failed,
+        bad-inline-option,
+        locally-disabled,
+        file-ignored,
+        suppressed-message,
+        useless-suppression,
+        deprecated-pragma,
+        use-symbolic-message-instead,
+        missing-module-docstring,
+        missing-function-docstring,
+        missing-class-docstring
+
+[BASIC]
+bad-names=foo,
+          bar,
+          baz
+
+[FORMAT]
+max-line-length=80
+
+
+[REFACTORING]
+max-nested-blocks=5
+
+[DESIGN]
+max-statements=15
